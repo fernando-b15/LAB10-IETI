@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:protocolo15@basemongocluster.otant.mongodb.net/test?retryWrites=true&w=majority
