@@ -1,5 +1,75 @@
-# 2.4 MongoDB Files API
-Create Spring Boot API that allows uploading and serving files.
+# Autor
+
+   * [Fernando Barrera Barrera](https://github.com/fernando-b15) :guitar:
+   
+## Link Front-End
+  * [Front-End](https://github.com/fernando-b15/LAB10-Front-IETI)
+  
+## Test
+
+## Test Part1
+
+Primero vamos a probar la implementacion del metodo  getFileByName con la imagen lion.jpg que insertamos en la base de datos al ejecutar el servidor
+
+![img1](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test1.PNG)
+
+Ahora vamos a probar la implementacion del metodo handleFileUpload caragando una imagne local a la base de datos desde consola
+
+![img2](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test4.PNG)
+
+Vemos que el resultado de la peticion fue 200 asi que la imagen con el nombre perro.png fue cargada exitosamente a la base de datos ahora procedemos a ver la imagen el servidor con el nombre perro.png 
+
+![img3](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test5.PNG)
+
+## Test Part2
+
+Una vez que  logramos conectar el front con el servidor del back vamos a realizar una prueba e intentar cargar una imagen desde la vista newTask y con el nuevo campo para seleccionar archivo cargamos  una imagen llamada odst.jpg
+
+![img4](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test3.PNG)
+
+Vemos que la peticion se completo exitosamente asi que vamos a comprobar si la imagen quedo en el servidro del back y vemos que se cargo exitosamente
+
+![img5](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test2.PNG)
+
+## Test Part3
+
+Ahora ya que terminamos completamente la conexion del front con los controllers del back vamos a realizar una prueba completa ,primero entramos a la vista home del front y vemos que inicalmente no tenemos tareas
+
+![img6](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test6.PNG)
+
+Ahora vamos a proceder a realizar el registro de la primera tarea con una imagen
+
+![img7](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test7.PNG)
+
+Regresamos al panel inicial y vemos que efectivamente se creo la nueva tarea con su respectiva imagen
+
+![img8](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test8.PNG)
+
+Ahora vamos a registrar otra tarea con otra imagen diferente a la anterior
+
+![img9](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test9.PNG)
+
+Ahora volvemos al home y vemos que efectivamente se inserto la nueva tarea con su respectiva imagen
+
+
+![img10](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test10.PNG)
+
+Ahora vamos a insertar la ultima tarea pero en vez de cargarle una imagen vamos a cargarleun documente pdf
+
+![img11](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test11.PNG)
+
+Ahora vamos al home y vemos que se inserto la nuava tarea y que en vez de una imagen tiene un icono de documento pdf
+
+![img12](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test12.PNG)
+
+Ahora al darle click al icono del documente pdf este no redirije al servidor del back donde esta el docuemnto pdf y nos muestra el documento pdf en el buscador
+
+![img13](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test13.PNG)
+
+Por ultimo verficamos en el controller del back y vemos que efectivamente se resgistraron la tres tareas que resgistramos anteriormente
+
+
+![img14](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test14.PNG)
 
 
 ## Part 1: Implement a File uploader API
