@@ -13,11 +13,11 @@ Primero vamos a probar la implementacion del metodo  getFileByName con la imagen
 
 ![img1](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test1.PNG)
 
-Ahora vamos a probar la implementacion del metodo handleFileUpload caragando una imagne local a la base de datos desde consola
+Ahora vamos a probar la implementacion del metodo handleFileUpload cargando una imagen local a la base de datos desde consola
 
 ![img2](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test4.PNG)
 
-Vemos que el resultado de la peticion fue 200 asi que la imagen con el nombre perro.png fue cargada exitosamente a la base de datos ahora procedemos a ver la imagen el servidor con el nombre perro.png 
+Vemos que el resultado de la peticion fue 200 asi que la imagen con el nombre perro.png fue cargada exitosamente a la base de datos ahora procedemos a ver la imagen en el servidor con el nombre perro.png 
 
 ![img3](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test5.PNG)
 
@@ -54,7 +54,7 @@ Ahora volvemos al home y vemos que efectivamente se inserto la nueva tarea con s
 
 ![img10](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test10.PNG)
 
-Ahora vamos a insertar la ultima tarea pero en vez de cargarle una imagen vamos a cargarleun documente pdf
+Ahora vamos a insertar la ultima tarea pero en vez de cargarle una imagen vamos a cargarleun documento pdf
 
 ![img11](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test11.PNG)
 
@@ -62,7 +62,7 @@ Ahora vamos al home y vemos que se inserto la nuava tarea y que en vez de una im
 
 ![img12](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test12.PNG)
 
-Ahora al darle click al icono del documente pdf este no redirije al servidor del back donde esta el docuemnto pdf y nos muestra el documento pdf en el buscador
+Ahora al darle click al icono del documente pdf este no redirije al servidor del back donde esta el documento pdf y nos muestra el documento pdf en el buscador
 
 ![img13](https://github.com/fernando-b15/LAB10-IETI/blob/master/img/test13.PNG)
 
